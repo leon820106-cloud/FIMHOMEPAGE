@@ -56,14 +56,14 @@
   @media (max-width: 560px) { .portals { grid-template-columns: 1fr; } }
 
   .portal-card {
-    background: rgba(215,225,235,0.50);
-    backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255,255,255,0.40); border-radius: 20px;
+    background: rgba(235,244,255,0.75);
+    backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.65); border-radius: 20px;
     padding: 28px 22px 22px; text-align: center; text-decoration: none;
     display: flex; flex-direction: column; align-items: center; gap: 10px;
     transition: transform 0.28s ease, background 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
     cursor: pointer; position: relative; overflow: hidden;
-    box-shadow: 0 3px 18px rgba(20,60,100,0.10), inset 0 1px 0 rgba(255,255,255,0.45);
+    box-shadow: 0 4px 22px rgba(20,60,100,0.12), inset 0 1px 0 rgba(255,255,255,0.80);
   }
   .portal-card::before {
     content: ''; position: absolute; top: 0; left: 0; right: 0;
@@ -98,10 +98,10 @@
   .portal-card:nth-child(3) .card-icon { background: rgba(41,128,185,0.12); }
   .portal-card:nth-child(4) .card-icon { background: rgba(142,68,173,0.12); }
 
-  .card-title { font-size: 15px; font-weight: 800; color: #1a2e42; line-height: 1.35; font-family: 'Segoe UI',sans-serif; transition: color 0.28s; }
-  .card-desc  { font-size: 12px; color: #2c4a62; line-height: 1.55; font-family: 'Segoe UI',sans-serif; transition: color 0.28s; }
-  .card-freq  { font-size: 11px; color: #7a96ae; margin-top: -2px; transition: color 0.28s; }
-  .card-arrow { font-size: 17px; color: #a0b8cc; margin-top: 4px; transition: color 0.2s, transform 0.2s; }
+  .card-title { font-size: 17px; font-weight: 800; color: #1a2e42; line-height: 1.35; font-family: 'Segoe UI',sans-serif; transition: color 0.28s; }
+  .card-desc  { font-size: 13.5px; color: #2c4a62; line-height: 1.55; font-family: 'Segoe UI',sans-serif; transition: color 0.28s; }
+  .card-freq  { font-size: 12px; color: #7a96ae; margin-top: -2px; transition: color 0.28s; }
+  .card-arrow { font-size: 19px; color: #a0b8cc; margin-top: 4px; transition: color 0.2s, transform 0.2s; }
 
   /* glowing footer */
   .footer {
